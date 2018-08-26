@@ -20,7 +20,7 @@ class App < Sinatra::Base
     erb :display_puppy
   end
 
-  # post '/display_puppy' do
-  #   erb :display_puppy
-  # end
+  post '/display_puppy' do
+    erb :display_puppy
+  end
 end
