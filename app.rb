@@ -22,4 +22,5 @@ class App < Sinatra::Base
 
   post '/display_puppy' do
     erb :display_puppy
+  end
 end
